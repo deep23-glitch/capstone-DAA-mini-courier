@@ -1,0 +1,45 @@
+Dataset: data/medium.json | nodes=60 edges=128 parcels=40 capacity=100 kg
+
+======================================================================
+TRIP 1
+======================================================================
+
+[1] PARCELS SORTED (deadline asc, priority desc) - top 10
+      ID  Wt Pri DL(h)  Dest Value
+       7  14   5     2    39    60
+      33  22   5     2    42    60
+      14   4   4     2    15    50
+       4   4   4     4    56    48
+      38  22   3     4    44    38
+       1  12   2     4     5    28
+       8   4   1     4    41    18
+      18  23   5     8    34    54
+      21  23   3     8    41    34
+      22  15   2     8    25    24
+
+[2] KNAPSACK: loaded 16 parcels, 99/100 kg, total value 612
+    parcel ids: [3, 4, 6, 7, 8, 9, 10, 14, 17, 19, 23, 25, 29, 32, 34, 35]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 15: 3.9 km  (ETA 0.13 h)
+    Node 15 -> Node 14: 8.1 km  (ETA 0.40 h)
+    Node 14 -> Node 41: 5.2 km  (ETA 0.57 h)
+    Node 41 -> Node 56: 16.8 km  (ETA 1.13 h)
+    Node 56 -> Node 23: 22.2 km  (ETA 1.87 h)
+    Node 23 -> Node 29: 5.0 km  (ETA 2.04 h)
+    Node 29 -> Node 20: 28.9 km  (ETA 3.00 h)
+    Node 20 -> Node 39: 4.1 km  (ETA 3.14 h)
+    Node 39 -> Node 53: 4.5 km  (ETA 3.29 h)
+    Node 53 -> Node 21: 5.0 km  (ETA 3.46 h)
+    Node 21 -> Node 47: 0.4 km  (ETA 3.47 h)
+    Node 47 -> Node 10: 5.6 km  (ETA 3.66 h)
+    Node 10 -> Node 25: 9.3 km  (ETA 3.97 h)
+    Node 25 -> Node 13: 10.8 km  (ETA 4.33 h)
+    Node 13 -> Node 38: 3.6 km  (ETA 4.45 h)
+    Node 38 -> Node 50: 9.9 km  (ETA 4.78 h)
+    Node 50 -> Node 0: 4.9 km  (return)
+    Total route length: 148.2 km
+    Full road path (32 nodes): 0 > 15 > 16 > 14 > 41 > 14 > 52 > 56 > 19 > 58 > 26 > 23 > 29 > 7 > 11 > 17 > 20 > 39 > 45 > 53 > 21 > 47 > 21 > 10 > 33 ...
+    Late parcels: [7]
+
+[4] STAGE RUNTIMES (ms): sort=0.060, knapsack=0.258, dijkstra=0.537, tsp=0.097
