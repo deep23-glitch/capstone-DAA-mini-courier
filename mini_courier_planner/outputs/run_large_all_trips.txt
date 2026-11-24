@@ -1,0 +1,370 @@
+Dataset: data/large.json | nodes=300 edges=634 parcels=200 capacity=250 kg
+
+======================================================================
+TRIP 1
+======================================================================
+
+[1] PARCELS SORTED (deadline asc, priority desc) - top 10
+      ID  Wt Pri DL(h)  Dest Value
+      57   2   5     2   246    60
+     156  25   5     2   191    60
+      24  11   4     2    47    50
+     140   6   4     2   127    50
+      78   5   3     2   135    40
+     135   4   2     2   173    30
+     152  18   2     2    95    30
+     182   9   1     2   298    20
+      70  25   5     3   294    59
+      75  18   5     3   175    59
+
+[2] KNAPSACK: loaded 53 parcels, 250/250 kg, total value 2127
+    parcel ids: [1, 6, 8, 13, 16, 21, 35, 36, 41, 43, 49, 53, 54, 57, 62, 65, 71, 73, 78, 80, 83, 86, 90, 94, 95, 96, 99, 101, 103, 107, 113, 114, 115, 116, 119, 123, 125, 135, 136, 139, 140, 149, 157, 160, 163, 175, 176, 177, 180, 186, 188, 190, 195]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 237: 2.3 km  (ETA 0.08 h)
+    Node 237 -> Node 224: 8.7 km  (ETA 0.37 h)
+    Node 224 -> Node 173: 3.4 km  (ETA 0.48 h)
+    Node 173 -> Node 269: 5.7 km  (ETA 0.67 h)
+    Node 269 -> Node 33: 4.6 km  (ETA 0.82 h)
+    Node 33 -> Node 213: 4.2 km  (ETA 0.96 h)
+    Node 213 -> Node 268: 0.8 km  (ETA 0.99 h)
+    Node 268 -> Node 150: 10.7 km  (ETA 1.35 h)
+    Node 150 -> Node 154: 1.0 km  (ETA 1.38 h)
+    Node 154 -> Node 43: 8.2 km  (ETA 1.65 h)
+    Node 43 -> Node 222: 24.1 km  (ETA 2.46 h)
+    Node 222 -> Node 125: 5.1 km  (ETA 2.63 h)
+    Node 125 -> Node 118: 2.4 km  (ETA 2.71 h)
+    Node 118 -> Node 140: 4.0 km  (ETA 2.84 h)
+    Node 140 -> Node 127: 4.0 km  (ETA 2.97 h)
+    Node 127 -> Node 175: 4.9 km  (ETA 3.14 h)
+    Node 175 -> Node 40: 0.8 km  (ETA 3.16 h)
+    Node 40 -> Node 96: 0.2 km  (ETA 3.17 h)
+    Node 96 -> Node 177: 26.1 km  (ETA 4.04 h)
+    Node 177 -> Node 17: 1.9 km  (ETA 4.10 h)
+    Node 17 -> Node 135: 6.6 km  (ETA 4.32 h)
+    Node 135 -> Node 248: 4.3 km  (ETA 4.47 h)
+    Node 248 -> Node 47: 4.2 km  (ETA 4.61 h)
+    Node 47 -> Node 53: 3.9 km  (ETA 4.74 h)
+    Node 53 -> Node 253: 2.6 km  (ETA 4.82 h)
+    Node 253 -> Node 178: 7.9 km  (ETA 5.09 h)
+    Node 178 -> Node 234: 5.1 km  (ETA 5.26 h)
+    Node 234 -> Node 104: 10.4 km  (ETA 5.60 h)
+    Node 104 -> Node 211: 2.7 km  (ETA 5.69 h)
+    Node 211 -> Node 179: 18.7 km  (ETA 6.32 h)
+    Node 179 -> Node 103: 6.8 km  (ETA 6.54 h)
+    Node 103 -> Node 290: 1.4 km  (ETA 6.59 h)
+    Node 290 -> Node 162: 11.4 km  (ETA 6.97 h)
+    Node 162 -> Node 25: 6.4 km  (ETA 7.18 h)
+    Node 25 -> Node 246: 10.0 km  (ETA 7.52 h)
+    Node 246 -> Node 204: 12.1 km  (ETA 7.92 h)
+    Node 204 -> Node 172: 1.7 km  (ETA 7.98 h)
+    Node 172 -> Node 156: 34.3 km  (ETA 9.12 h)
+    Node 156 -> Node 252: 2.5 km  (ETA 9.20 h)
+    Node 252 -> Node 283: 13.4 km  (ETA 9.65 h)
+    Node 283 -> Node 267: 4.8 km  (ETA 9.81 h)
+    Node 267 -> Node 219: 6.3 km  (ETA 10.02 h)
+    Node 219 -> Node 176: 7.7 km  (ETA 10.28 h)
+    Node 176 -> Node 240: 3.0 km  (ETA 10.38 h)
+    Node 240 -> Node 199: 1.3 km  (ETA 10.42 h)
+    Node 199 -> Node 221: 14.1 km  (ETA 10.89 h)
+    Node 221 -> Node 0: 38.1 km  (return)
+    Total route length: 364.8 km
+    Full road path (153 nodes): 0 > 264 > 237 > 94 > 238 > 188 > 224 > 206 > 173 > 289 > 113 > 269 > 236 > 58 > 33 > 189 > 213 > 268 > 260 > 81 > 228 > 150 > 154 > 230 > 120 ...
+    Late parcels: [57, 140, 78, 116, 163, 136, 62, 94]
+
+[4] STAGE RUNTIMES (ms): sort=0.300, knapsack=3.304, dijkstra=7.497, tsp=0.167
+
+======================================================================
+TRIP 2
+======================================================================
+
+[2] KNAPSACK: loaded 30 parcels, 250/250 kg, total value 945
+    parcel ids: [3, 9, 11, 22, 23, 24, 27, 42, 60, 61, 63, 75, 79, 88, 102, 104, 117, 127, 129, 137, 138, 143, 144, 145, 170, 172, 173, 179, 184, 198]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 133: 0.6 km  (ETA 0.02 h)
+    Node 133 -> Node 264: 2.1 km  (ETA 0.09 h)
+    Node 264 -> Node 197: 6.7 km  (ETA 0.31 h)
+    Node 197 -> Node 144: 8.2 km  (ETA 0.59 h)
+    Node 144 -> Node 146: 2.8 km  (ETA 0.68 h)
+    Node 146 -> Node 270: 11.9 km  (ETA 1.08 h)
+    Node 270 -> Node 36: 11.5 km  (ETA 1.46 h)
+    Node 36 -> Node 235: 2.0 km  (ETA 1.53 h)
+    Node 235 -> Node 261: 4.8 km  (ETA 1.69 h)
+    Node 261 -> Node 159: 2.3 km  (ETA 1.76 h)
+    Node 159 -> Node 176: 1.2 km  (ETA 1.80 h)
+    Node 176 -> Node 47: 11.6 km  (ETA 2.19 h)
+    Node 47 -> Node 77: 5.6 km  (ETA 2.38 h)
+    Node 77 -> Node 76: 4.5 km  (ETA 2.53 h)
+    Node 76 -> Node 104: 2.6 km  (ETA 2.61 h)
+    Node 104 -> Node 16: 7.9 km  (ETA 2.88 h)
+    Node 16 -> Node 173: 5.6 km  (ETA 3.06 h)
+    Node 173 -> Node 272: 5.6 km  (ETA 3.25 h)
+    Node 272 -> Node 115: 14.3 km  (ETA 3.73 h)
+    Node 115 -> Node 225: 3.2 km  (ETA 3.83 h)
+    Node 225 -> Node 247: 2.6 km  (ETA 3.92 h)
+    Node 247 -> Node 217: 2.3 km  (ETA 4.00 h)
+    Node 217 -> Node 290: 13.5 km  (ETA 4.45 h)
+    Node 290 -> Node 161: 0.4 km  (ETA 4.46 h)
+    Node 161 -> Node 66: 28.3 km  (ETA 5.40 h)
+    Node 66 -> Node 175: 30.9 km  (ETA 6.43 h)
+    Node 175 -> Node 96: 0.8 km  (ETA 6.46 h)
+    Node 96 -> Node 293: 34.2 km  (ETA 7.60 h)
+    Node 293 -> Node 12: 22.7 km  (ETA 8.36 h)
+    Node 12 -> Node 0: 40.5 km  (return)
+    Total route length: 291.2 km
+    Full road path (121 nodes): 0 > 133 > 0 > 264 > 237 > 34 > 197 > 134 > 144 > 156 > 146 > 143 > 169 > 106 > 196 > 54 > 11 > 270 > 231 > 147 > 285 > 205 > 78 > 36 > 235 ...
+    Late parcels: [24, 75]
+
+[4] STAGE RUNTIMES (ms): sort=0.221, knapsack=2.146, dijkstra=4.830, tsp=0.072
+
+======================================================================
+TRIP 3
+======================================================================
+
+[2] KNAPSACK: loaded 18 parcels, 250/250 kg, total value 695
+    parcel ids: [4, 5, 15, 34, 38, 44, 46, 52, 64, 89, 122, 141, 153, 154, 162, 165, 174, 200]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 238: 7.7 km  (ETA 0.26 h)
+    Node 238 -> Node 129: 0.4 km  (ETA 0.27 h)
+    Node 129 -> Node 164: 1.5 km  (ETA 0.32 h)
+    Node 164 -> Node 95: 11.0 km  (ETA 0.69 h)
+    Node 95 -> Node 170: 6.9 km  (ETA 0.92 h)
+    Node 170 -> Node 42: 0.9 km  (ETA 0.95 h)
+    Node 42 -> Node 126: 8.9 km  (ETA 1.24 h)
+    Node 126 -> Node 101: 0.9 km  (ETA 1.27 h)
+    Node 101 -> Node 299: 5.6 km  (ETA 1.46 h)
+    Node 299 -> Node 120: 29.1 km  (ETA 2.43 h)
+    Node 120 -> Node 142: 13.6 km  (ETA 2.88 h)
+    Node 142 -> Node 15: 35.8 km  (ETA 4.08 h)
+    Node 15 -> Node 106: 25.3 km  (ETA 4.92 h)
+    Node 106 -> Node 267: 9.4 km  (ETA 5.23 h)
+    Node 267 -> Node 87: 13.3 km  (ETA 5.68 h)
+    Node 87 -> Node 221: 7.1 km  (ETA 5.91 h)
+    Node 221 -> Node 124: 3.1 km  (ETA 6.02 h)
+    Node 124 -> Node 190: 9.7 km  (ETA 6.34 h)
+    Node 190 -> Node 0: 34.8 km  (return)
+    Total route length: 225.0 km
+    Full road path (99 nodes): 0 > 264 > 86 > 94 > 238 > 129 > 164 > 188 > 224 > 137 > 16 > 90 > 95 > 254 > 247 > 170 > 42 > 170 > 244 > 278 > 56 > 126 > 101 > 126 > 241 ...
+    Late parcels: [200]
+
+[4] STAGE RUNTIMES (ms): sort=0.179, knapsack=1.581, dijkstra=3.070, tsp=0.033
+
+======================================================================
+TRIP 4
+======================================================================
+
+[2] KNAPSACK: loaded 14 parcels, 250/250 kg, total value 595
+    parcel ids: [2, 10, 26, 40, 70, 105, 109, 110, 124, 134, 156, 158, 182, 193]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 197: 8.2 km  (ETA 0.27 h)
+    Node 197 -> Node 177: 11.4 km  (ETA 0.65 h)
+    Node 177 -> Node 173: 7.8 km  (ETA 0.91 h)
+    Node 173 -> Node 44: 13.5 km  (ETA 1.36 h)
+    Node 44 -> Node 294: 9.1 km  (ETA 1.67 h)
+    Node 294 -> Node 11: 28.0 km  (ETA 2.60 h)
+    Node 11 -> Node 270: 1.4 km  (ETA 2.65 h)
+    Node 270 -> Node 216: 22.3 km  (ETA 3.39 h)
+    Node 216 -> Node 167: 17.5 km  (ETA 3.97 h)
+    Node 167 -> Node 298: 1.9 km  (ETA 4.04 h)
+    Node 298 -> Node 51: 16.0 km  (ETA 4.57 h)
+    Node 51 -> Node 19: 10.3 km  (ETA 4.91 h)
+    Node 19 -> Node 191: 18.3 km  (ETA 5.52 h)
+    Node 191 -> Node 217: 12.4 km  (ETA 5.94 h)
+    Node 217 -> Node 0: 25.5 km  (return)
+    Total route length: 203.6 km
+    Full road path (94 nodes): 0 > 264 > 237 > 34 > 197 > 134 > 266 > 164 > 188 > 38 > 177 > 38 > 119 > 206 > 173 > 79 > 263 > 281 > 288 > 37 > 44 > 98 > 57 > 294 > 180 ...
+    Late parcels: [156, 182, 110]
+
+[4] STAGE RUNTIMES (ms): sort=0.149, knapsack=1.413, dijkstra=2.291, tsp=0.024
+
+======================================================================
+TRIP 5
+======================================================================
+
+[2] KNAPSACK: loaded 14 parcels, 250/250 kg, total value 549
+    parcel ids: [12, 31, 50, 68, 87, 91, 108, 118, 164, 169, 181, 187, 194, 197]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 133: 0.6 km  (ETA 0.02 h)
+    Node 133 -> Node 118: 10.6 km  (ETA 0.37 h)
+    Node 118 -> Node 140: 4.0 km  (ETA 0.51 h)
+    Node 140 -> Node 157: 4.7 km  (ETA 0.66 h)
+    Node 157 -> Node 44: 13.2 km  (ETA 1.10 h)
+    Node 44 -> Node 236: 17.1 km  (ETA 1.67 h)
+    Node 236 -> Node 162: 23.0 km  (ETA 2.44 h)
+    Node 162 -> Node 195: 3.6 km  (ETA 2.56 h)
+    Node 195 -> Node 55: 34.8 km  (ETA 3.72 h)
+    Node 55 -> Node 253: 45.4 km  (ETA 5.23 h)
+    Node 253 -> Node 149: 4.9 km  (ETA 5.40 h)
+    Node 149 -> Node 261: 5.9 km  (ETA 5.59 h)
+    Node 261 -> Node 11: 13.5 km  (ETA 6.04 h)
+    Node 11 -> Node 0: 16.4 km  (return)
+    Total route length: 197.7 km
+    Full road path (85 nodes): 0 > 133 > 0 > 264 > 251 > 132 > 118 > 57 > 140 > 15 > 157 > 15 > 140 > 57 > 98 > 44 > 37 > 288 > 281 > 263 > 79 > 289 > 113 > 236 > 58 ...
+    Late parcels: [108]
+
+[4] STAGE RUNTIMES (ms): sort=0.115, knapsack=1.194, dijkstra=2.067, tsp=0.023
+
+======================================================================
+TRIP 6
+======================================================================
+
+[2] KNAPSACK: loaded 15 parcels, 250/250 kg, total value 481
+    parcel ids: [7, 14, 17, 20, 30, 55, 77, 84, 85, 111, 126, 130, 132, 183, 196]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 281: 15.8 km  (ETA 0.53 h)
+    Node 281 -> Node 184: 8.7 km  (ETA 0.82 h)
+    Node 184 -> Node 220: 9.9 km  (ETA 1.15 h)
+    Node 220 -> Node 82: 1.7 km  (ETA 1.20 h)
+    Node 82 -> Node 230: 4.8 km  (ETA 1.36 h)
+    Node 230 -> Node 181: 1.7 km  (ETA 1.42 h)
+    Node 181 -> Node 41: 29.1 km  (ETA 2.39 h)
+    Node 41 -> Node 245: 23.2 km  (ETA 3.16 h)
+    Node 245 -> Node 135: 10.4 km  (ETA 3.51 h)
+    Node 135 -> Node 78: 12.6 km  (ETA 3.93 h)
+    Node 78 -> Node 219: 2.0 km  (ETA 4.00 h)
+    Node 219 -> Node 64: 18.3 km  (ETA 4.61 h)
+    Node 64 -> Node 145: 6.8 km  (ETA 4.83 h)
+    Node 145 -> Node 243: 9.2 km  (ETA 5.14 h)
+    Node 243 -> Node 0: 39.5 km  (return)
+    Total route length: 193.7 km
+    Full road path (82 nodes): 0 > 264 > 251 > 132 > 271 > 222 > 281 > 288 > 148 > 184 > 260 > 81 > 220 > 82 > 154 > 230 > 181 > 183 > 93 > 31 > 81 > 249 > 244 > 278 > 56 ...
+    Late parcels: none
+
+[4] STAGE RUNTIMES (ms): sort=0.095, knapsack=1.017, dijkstra=2.348, tsp=0.022
+
+======================================================================
+TRIP 7
+======================================================================
+
+[2] KNAPSACK: loaded 14 parcels, 250/250 kg, total value 416
+    parcel ids: [28, 33, 56, 58, 67, 69, 72, 82, 98, 148, 150, 152, 155, 171]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 85: 1.0 km  (ETA 0.03 h)
+    Node 85 -> Node 200: 13.9 km  (ETA 0.50 h)
+    Node 200 -> Node 95: 4.5 km  (ETA 0.65 h)
+    Node 95 -> Node 269: 4.7 km  (ETA 0.80 h)
+    Node 269 -> Node 278: 13.6 km  (ETA 1.26 h)
+    Node 278 -> Node 10: 9.1 km  (ETA 1.56 h)
+    Node 10 -> Node 93: 19.2 km  (ETA 2.20 h)
+    Node 93 -> Node 214: 10.3 km  (ETA 2.54 h)
+    Node 214 -> Node 21: 16.1 km  (ETA 3.08 h)
+    Node 21 -> Node 248: 46.6 km  (ETA 4.63 h)
+    Node 248 -> Node 18: 14.6 km  (ETA 5.12 h)
+    Node 18 -> Node 5: 17.7 km  (ETA 5.71 h)
+    Node 5 -> Node 234: 31.1 km  (ETA 6.75 h)
+    Node 234 -> Node 91: 22.7 km  (ETA 7.50 h)
+    Node 91 -> Node 0: 44.3 km  (return)
+    Total route length: 269.4 km
+    Full road path (99 nodes): 0 > 85 > 264 > 86 > 94 > 238 > 188 > 224 > 137 > 200 > 16 > 90 > 95 > 35 > 269 > 35 > 254 > 247 > 170 > 244 > 278 > 244 > 249 > 160 > 10 ...
+    Late parcels: [28]
+
+[4] STAGE RUNTIMES (ms): sort=0.071, knapsack=0.765, dijkstra=2.269, tsp=0.020
+
+======================================================================
+TRIP 8
+======================================================================
+
+[2] KNAPSACK: loaded 13 parcels, 249/250 kg, total value 342
+    parcel ids: [32, 45, 59, 74, 100, 120, 128, 131, 133, 142, 161, 185, 192]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 2: 5.3 km  (ETA 0.18 h)
+    Node 2 -> Node 272: 11.4 km  (ETA 0.56 h)
+    Node 272 -> Node 228: 20.8 km  (ETA 1.25 h)
+    Node 228 -> Node 114: 4.2 km  (ETA 1.39 h)
+    Node 114 -> Node 26: 7.2 km  (ETA 1.63 h)
+    Node 26 -> Node 174: 28.7 km  (ETA 2.59 h)
+    Node 174 -> Node 61: 9.8 km  (ETA 2.91 h)
+    Node 61 -> Node 19: 21.1 km  (ETA 3.62 h)
+    Node 19 -> Node 295: 32.4 km  (ETA 4.70 h)
+    Node 295 -> Node 105: 1.4 km  (ETA 4.74 h)
+    Node 105 -> Node 149: 4.0 km  (ETA 4.88 h)
+    Node 149 -> Node 138: 5.5 km  (ETA 5.06 h)
+    Node 138 -> Node 205: 7.4 km  (ETA 5.31 h)
+    Node 205 -> Node 0: 20.1 km  (return)
+    Total route length: 179.3 km
+    Full road path (75 nodes): 0 > 264 > 251 > 2 > 132 > 271 > 222 > 272 > 222 > 288 > 148 > 184 > 260 > 81 > 228 > 60 > 114 > 277 > 26 > 186 > 43 > 120 > 31 > 81 > 249 ...
+    Late parcels: [32]
+
+[4] STAGE RUNTIMES (ms): sort=0.050, knapsack=0.590, dijkstra=5.539, tsp=0.023
+
+======================================================================
+TRIP 9
+======================================================================
+
+[2] KNAPSACK: loaded 16 parcels, 249/250 kg, total value 241
+    parcel ids: [25, 37, 39, 81, 92, 93, 106, 112, 121, 159, 166, 167, 168, 178, 191, 199]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 156: 7.0 km  (ETA 0.23 h)
+    Node 156 -> Node 166: 4.7 km  (ETA 0.39 h)
+    Node 166 -> Node 5: 10.8 km  (ETA 0.75 h)
+    Node 5 -> Node 88: 18.0 km  (ETA 1.35 h)
+    Node 88 -> Node 47: 2.5 km  (ETA 1.43 h)
+    Node 47 -> Node 287: 4.1 km  (ETA 1.57 h)
+    Node 287 -> Node 182: 9.9 km  (ETA 1.90 h)
+    Node 182 -> Node 90: 17.0 km  (ETA 2.47 h)
+    Node 90 -> Node 38: 8.5 km  (ETA 2.75 h)
+    Node 38 -> Node 57: 15.6 km  (ETA 3.27 h)
+    Node 57 -> Node 42: 26.0 km  (ETA 4.14 h)
+    Node 42 -> Node 61: 8.4 km  (ETA 4.42 h)
+    Node 61 -> Node 126: 10.8 km  (ETA 4.78 h)
+    Node 126 -> Node 114: 24.2 km  (ETA 5.58 h)
+    Node 114 -> Node 55: 11.6 km  (ETA 5.97 h)
+    Node 55 -> Node 0: 37.1 km  (return)
+    Total route length: 216.2 km
+    Full road path (87 nodes): 0 > 286 > 144 > 156 > 169 > 166 > 169 > 106 > 196 > 54 > 5 > 54 > 283 > 279 > 152 > 163 > 248 > 88 > 139 > 47 > 105 > 295 > 287 > 109 > 210 ...
+    Late parcels: none
+
+[4] STAGE RUNTIMES (ms): sort=0.035, knapsack=0.424, dijkstra=2.503, tsp=0.024
+
+======================================================================
+TRIP 10
+======================================================================
+
+[2] KNAPSACK: loaded 12 parcels, 230/250 kg, total value 137
+    parcel ids: [18, 29, 47, 48, 51, 66, 76, 97, 146, 147, 151, 189]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 125: 12.1 km  (ETA 0.40 h)
+    Node 125 -> Node 211: 22.4 km  (ETA 1.15 h)
+    Node 211 -> Node 178: 14.1 km  (ETA 1.62 h)
+    Node 178 -> Node 262: 12.0 km  (ETA 2.02 h)
+    Node 262 -> Node 87: 10.7 km  (ETA 2.38 h)
+    Node 87 -> Node 258: 3.8 km  (ETA 2.50 h)
+    Node 258 -> Node 5: 18.0 km  (ETA 3.10 h)
+    Node 5 -> Node 56: 39.7 km  (ETA 4.43 h)
+    Node 56 -> Node 126: 0.7 km  (ETA 4.45 h)
+    Node 126 -> Node 41: 3.7 km  (ETA 4.57 h)
+    Node 41 -> Node 191: 10.8 km  (ETA 4.93 h)
+    Node 191 -> Node 158: 21.9 km  (ETA 5.66 h)
+    Node 158 -> Node 0: 32.9 km  (return)
+    Total route length: 202.8 km
+    Full road path (78 nodes): 0 > 264 > 251 > 132 > 271 > 125 > 271 > 222 > 281 > 263 > 79 > 173 > 206 > 137 > 16 > 250 > 32 > 211 > 104 > 291 > 69 > 153 > 275 > 178 > 75 ...
+    Late parcels: none
+
+[4] STAGE RUNTIMES (ms): sort=0.014, knapsack=0.187, dijkstra=1.927, tsp=0.016
+
+======================================================================
+TRIP 11
+======================================================================
+
+[2] KNAPSACK: loaded 1 parcels, 22/250 kg, total value 10
+    parcel ids: [19]
+
+[3] DELIVERY ORDER (nearest neighbour)
+    Node 0 -> Node 295: 27.6 km  (ETA 0.92 h)
+    Node 295 -> Node 0: 27.6 km  (return)
+    Total route length: 55.2 km
+    Full road path (27 nodes): 0 > 264 > 237 > 34 > 197 > 292 > 152 > 163 > 248 > 88 > 139 > 227 > 105 > 295 > 105 > 227 > 139 > 88 > 248 > 163 > 152 > 292 > 197 > 34 > 237 ...
+    Late parcels: none
+
+[4] STAGE RUNTIMES (ms): sort=0.001, knapsack=0.018, dijkstra=0.295, tsp=0.003
+
+SUMMARY: 11 trips, 2398.9 km total, 200 parcels delivered
