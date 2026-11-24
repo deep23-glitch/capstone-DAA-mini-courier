@@ -1,9 +1,0 @@
-BENCHMARK SUMMARY
-------------------------------------------------------------
-Sorting n=3200 (ms): merge=9.71 insertion=471.02 timsort=0.91
-Knapsack n=800,W=200: 14.2 ms | n=200,W=1600: 39.7 ms
-DP beat greedy in 85/200 random instances; greedy lost 1.6% value on average
-Dijkstra V=1600: 1.06 ms
-TSP k=160: NN=554 km (2.1 ms) -> 2-opt=455 km (23.7 ms)
-TSP quality vs exact optimum (k=8, 30 trials): NN avg 1.078x max 1.294x | 2-opt avg 1.003x max 1.056x
-Pipeline (ms): small sort=0.01 knap=0.05 dij=0.04 tsp=0.01; medium sort=0.06 knap=0.34 dij=0.64 tsp=0.03; large sort=0.41 knap=3.93 dij=8.89 tsp=0.19
